@@ -1,4 +1,5 @@
-grade = float(input("Enter your Grade: "))
+grade = round(float(input("Enter your Grade: ")))
+
 if grade >= 97 and grade <= 100:
     print("Grade/Mark: 1.0")
     print("Description: Excellent")
@@ -37,4 +38,7 @@ elif grade == 75:
     
 elif grade >=65 and grade <=74:
     print("Grade/Mark: 5.0")
-    print("Description: Failure")
+    print("Description: Failure, Better luck next time")
+   
+else:
+    print("Your grade is either Inc. means Incomplete, W means Withdrawn, or D means Dropped")
