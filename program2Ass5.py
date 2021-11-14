@@ -3,4 +3,7 @@ def lowest_of_three():
     b = int(input("Second Number: "))
     c = int(input("Thrid Number: "))
     if a < b and a < c:
-        print(f"The lowest number among the three is {firstNum}. ")
+        print(f"The lowest number among the three is {a}. ")
+    elif b < a and b < c:
+        print(f"The lowest number among the three is {b}.")
+    
